@@ -1,0 +1,44 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black /*#191970; /* Fondo azul oscuro */
+    color: #fff; /* Color de texto blanco */
+}
+
+h1 {
+	font-size:50px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Fondo blanco */
+    color: #0d47a1; /* Color de texto azul oscuro */
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #0d47a1; /* Borde azul oscuro */
+}
+
+input[type="text"],
+textarea {
+    background-color: #fff; /* Fondo blanco */
+    color: #0d47a1; /* Color de texto azul oscuro */
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 4px;
+    padding: 6px;
+}
